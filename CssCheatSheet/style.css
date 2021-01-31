@@ -1,0 +1,217 @@
+/* * {
+    margin:0;
+    padding:0;
+} */
+
+/* h1 {
+    color: green;
+} */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: rgb(223, 147, 49);
+}
+
+body {
+    background-color:rgb(223, 199, 199);
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400; */
+    font:  normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.button {
+    background-color:#333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+.box-1 {
+    background-color:#333;
+    color: #fff;
+    /* border-right: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid; */
+
+    /* border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style:dotted; */
+
+    border : 5px red solid;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    color: Green;
+}
+
+.box-2 {
+    background-color:#666;
+    color: #fff;
+    border : 5px #ccc dotted;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-2 h1 {
+    font-family: tahoma;
+    color: red;
+    font-weight: 800;
+    font-style: inherit;
+}
+
+
+.category {
+    border: 1px blue solid;
+    padding:20px;
+    border-radius:15px;
+}
+
+.category h1 {
+    text-align: center;
+    color: rgb(21, 99, 21);
+}
+
+.category ul {
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.category li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('./re.jpg');
+}
+
+.my-form {
+    background-color: rgb(148, 122, 122);
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"] , .my-form textarea[type="text"] {
+    padding:8px;
+    width: 50%;
+    color: rgb(175, 40, 40);
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid rgb(199, 91, 91);
+    margin-top: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width:70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width:800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('./back.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(3) {
+    background: yellow;
+}
+
+.my-list li:nth-child(even) {
+    background: grey;
+}
